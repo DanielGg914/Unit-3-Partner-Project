@@ -39,7 +39,7 @@ h1{
     font-size: 4rem;
     text-align: center;
     color: orange;
-    text-shadow: 1px 10px 10px black;
+    text-shadow: 2px 2px 20px black;
 }
 
 h3{
@@ -68,8 +68,6 @@ nav{
     background-color: orange;
     display: flex;
     margin-bottom: 10px;
-    text-shadow: 2px 10px 10px black;
-    box-shadow: 0 8px 30px -10px black;
 }
 
 nav ul{
@@ -128,7 +126,6 @@ article{
     width: 80%;
     margin: 0 auto;
     border: black solid 3px;
-    box-shadow: 0 8px 30px -10px black;
 }
 
 aside{
@@ -142,6 +139,5 @@ aside li{
 }
 
 footer{
-    height: 10%;
-    margin-top: 200px;
+    margin-top: 100px;
 }
