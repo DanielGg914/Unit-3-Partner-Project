@@ -8,6 +8,7 @@
         <meta property="og:description" content="pretend this is a description">
         <meta property="og:title" content="pretend this is a title">    
 
+<<<<<<< HEAD
         <title>AD Electronics</title>
         <link rel="stylesheet" href="homepage.css">
         <link rel="shortcut icon" href="Favicon.png" type="image/x-icon">
@@ -20,6 +21,19 @@
                 <li><a href="#">Gallery</a></li>
                 <li><a href="#">Products</a></li>
                 <li><a href="#">Order</a></li>
+=======
+        <title>Order Checkout</title>
+        <link rel="shortcut icon" href="Favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="orders.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Gallery-Page/gallery.html">Gallery</a></li>
+                <li><a href="Services-Page/services.html">Products</a></li>
+                <li><a href="Orders-Page/orders.html">Order</a></li>
+>>>>>>> ee0e21ceb40864a54924a715f02cd3d584c66b97
             </ul>
 
             <from>
@@ -28,6 +42,7 @@
             </from>
         </nav>
 
+<<<<<<< HEAD
         <header>
             <h1>AD Electronics</h1>
             <h1><img src="logo.png" style="height:200px;width:200px;"></h1>
@@ -62,5 +77,103 @@
                 
             </p>
         </footer>
+=======
+
+        <form action="data.json" method="POST">
+            <fieldset>
+                <legend><strong>User Information</strong></legend>
+                    <p>
+                        <ul>
+                            <li>
+                                <label for="username:">User Name</label>
+                                <input type="text" id="username" name="user.name">
+                            </li>
+                            <li>
+                                <label for="password:">Password</label>
+                                <input type="password" id="password" name="user.password">
+                            </li>
+                        </ul>
+                    </p>
+            </fieldset>
+
+            <fieldset>
+                <legend><strong>What drink do you want?</strong></legend>
+                    <p>
+                        <ul>
+                            <li>
+                                <label for="drink">
+                                    <input type="radio" id="drink" name="user.drink">
+                                    Coke
+                                </label>
+                            </li>
+                            <li>
+                                <label for="drink">
+                                    <input type="radio" id="drink" name="user.drink">
+                                    Diet Coke
+                                </label>
+                            </li>
+                            <li>
+                                <label for="drink">
+                                    <input type="radio" id="drink" name="user.drink">
+                                    Sprite
+                                </label>
+                            </li>
+                            <li>
+                                <label for="drink">
+                                    <input type="radio" id="drink" name="user.drink">
+                                    Water
+                                </label>
+                            </li>
+                        </ul>
+                    </p>
+            </fieldset>
+
+            <fieldset>
+                <legend><strong>Pizza Preference</strong></legend>
+                    <p>
+                        <ul>
+                            <li>
+                                <label for="preference_1">
+                                <input type="checkbox" name="preference_1" id="preference_1">
+                                    Plain
+                                </label>
+                            </li>
+                            <li>
+                                <label for="preference_2">
+                                <input type="checkbox" name="preference_2" id="preference_2">
+                                    Pepperoni
+                                </label>
+                            </li>
+                            <li>
+                                <label for="preference_3">
+                                    <input type="checkbox" name="preference_3" id="preference_3">
+                                    Chicken
+                                </label>
+                            </li>
+                            <li>
+                                <label for="preference_4">
+                                    <input type="checkbox" name="preference_4" id="preference_4">
+                                    Sausage
+                                </label>
+                        </ul>
+                    </p>
+            </fieldset>
+
+            <fieldset>
+                <legend><strong>Special Instructions</strong></legend>
+                <p>
+                    <ul>
+                        <li>
+                            <label for="SpecialInstru">Special Instructions</label><br>
+                            <textarea name="user.instru" id="SpecialInstru" cols="30" rows="10">Type Here</textarea>
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    <input type="image" src="submitbutton - Copy.png" alt="Submit">
+                </p>
+            </fieldset>
+        </form>
+>>>>>>> ee0e21ceb40864a54924a715f02cd3d584c66b97
     </body>
 </html>
