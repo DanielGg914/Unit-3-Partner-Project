@@ -146,12 +146,12 @@ footer{
     margin-top: 200px;
 }
 
-@media(min-width: 401px) {
-    body{
-        border: solid 15px gray;
+img{
+    height: 50px;
+    width: 50px;
+}
 
-    }
-    
+@media(min-width: 401px) {
     main{
         display: grid;
         grid-template-columns: repeat(5, 20%);
@@ -164,13 +164,6 @@ footer{
         height: auto;
         width: 100%;
         justify-items: end;
-    }
-    
-    ul{
-        background-color: burlywood;
-        text-align: center;
-        margin: 0;
-        list-style-type: none;
     }
     
     .applewatch{
@@ -212,10 +205,6 @@ footer{
 }
 
 @media(max-width: 400px) {
-    body{
-        border: solid 15px gray;
-    }
-    
     main{
         display: grid;
         grid-template-columns: repeat(5, 20%);
@@ -223,18 +212,11 @@ footer{
         justify-items: stretch;
         width: calc(100% - 20px);
     }
-    
+
     .item {
         height: auto;
         width: 100%;
         justify-items: end;
-    }
-    
-    ul{
-        background-color: burlywood;
-        text-align: end;
-        margin: 0;
-        list-style-type: none;
     }
     
     .applewatch{
