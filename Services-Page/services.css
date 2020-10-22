@@ -51,7 +51,7 @@ h4{
     font-size: 1.8rem;
 }
 
-p, li{
+li{
     font-size: 1.4rem;
     line-height: 1.5;
 }
@@ -125,10 +125,9 @@ main{
 }
 
 article{
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 0rem;
     border: black solid 3px;
-    box-shadow: 0 8px 30px -10px black;
 }
 
 aside{
@@ -143,5 +142,23 @@ aside li{
 
 footer{
     height: 10%;
-    margin-top: 200px;
+    margin-top: 10px;
+}
+
+header{
+    background-color: whitesmoke;
+    width: 80%;
+    margin: 0 auto;
+    border: black solid 3px;
+    box-shadow: 0 8px 30px -10px black;
+    margin-bottom: 20rem;
+}
+
+header p{
+    font-size: 2rem;
+    text-align: center;
+}
+
+article p{
+    font-size: 3rem;
 }
