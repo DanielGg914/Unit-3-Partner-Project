@@ -153,7 +153,7 @@ img{
 }
 
 @media(min-width: 401px) {
-    main{
+    main div{
         display: grid;
         grid-template-columns: repeat(5, 20%);
         gap: 5px;
@@ -202,11 +202,15 @@ img{
     .galaxy{
         grid-column: 3 / 4;
         grid-row: 3 / 4;
+    }
+    .video{
+        grid-column: 5 / 6;
+        grid-row: 5 / 6;
     }
 }
 
 @media(max-width: 400px) {
-    main{
+    main div{
         display: grid;
         grid-template-columns: repeat(5, 20%);
         gap: 5px;
@@ -255,6 +259,10 @@ img{
     .galaxy{
         grid-column: 3 / 4;
         grid-row: 3 / 4;
+    }
+    .video{
+        grid-column: 5 / 6;
+        grid-row: 5 / 6;
     }
 }
 
