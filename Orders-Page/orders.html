@@ -46,31 +46,81 @@
             </fieldset>
 
             <fieldset>
-                <legend><strong>What drink do you want?</strong></legend>
+                <legend><strong>Which product are you looking for?</strong></legend>
                     <p>
                         <ul>
                             <li>
-                                <label for="drink">
-                                    <input type="radio" id="drink" name="user.drink">
-                                    Coke
+                                <label for="product">
+                                    <input type="radio" id="product" name="product">
+                                    IPhone 12
                                 </label>
                             </li>
                             <li>
-                                <label for="drink">
-                                    <input type="radio" id="drink" name="user.drink">
-                                    Diet Coke
+                                <label for="product">
+                                    <input type="radio" id="product" name="user.product">
+                                    IPhone SE
                                 </label>
                             </li>
                             <li>
-                                <label for="drink">
-                                    <input type="radio" id="drink" name="user.drink">
-                                    Sprite
+                                <label for="product">
+                                    <input type="radio" id="product" name="user.product">
+                                    Samsung Galaxy s20
                                 </label>
                             </li>
                             <li>
-                                <label for="drink">
-                                    <input type="radio" id="drink" name="user.drink">
-                                    Water
+                                <label for="product">
+                                    <input type="radio" id="product" name="user.product">
+                                    Playstation 5
+                                </label>
+                            </li>
+                            <li>
+                                <label for="product">
+                                    <input type="radio" id="product" name="user.product">
+                                    Xbox Series X
+                                </label>
+                                <li>
+                                <label for="product">
+                                    <input type="radio" id="product" name="user.product">
+                                    Apple Watch
+                                </label>
+                                </li>
+                            </li>
+                        </ul>
+                    </p>
+            </fieldset>
+
+            <fieldset>
+                <legend><strong>Color Preference (Only available on select product)</strong></legend>
+                    <p>
+                        <ul>
+                            <li>
+                                <label for="preference">
+                                <input type="radio" name="preference_1" id="preference">
+                                    Blue
+                                </label>
+                            </li>
+                            <li>
+                                <label for="preference">
+                                <input type="radio" name="preference" id="preference">
+                                    Red
+                                </label>
+                            </li>
+                            <li>
+                                <label for="preference">
+                                    <input type="radio" name="preference" id="preference">
+                                    Pink
+                                </label>
+                            </li>
+                            <li>
+                                <label for="preference">
+                                    <input type="radio" name="preference" id="preference">
+                                    Black
+                                </label>
+                            </li>
+                            <li>
+                                <label for="preference">
+                                    <input type="radio" name="preference" id="preference">
+                                    White
                                 </label>
                             </li>
                         </ul>
@@ -78,49 +128,34 @@
             </fieldset>
 
             <fieldset>
-                <legend><strong>Pizza Preference</strong></legend>
+                <legend><strong>How would you like yo pick up the product</strong></legend>
                     <p>
                         <ul>
                             <li>
-                                <label for="preference_1">
-                                <input type="checkbox" name="preference_1" id="preference_1">
-                                    Plain
+                                <label for="shipping_1">
+                                <input type="radio" name="shipping_1" id="shipping_1">
+                                    In-Store
                                 </label>
                             </li>
                             <li>
-                                <label for="preference_2">
-                                <input type="checkbox" name="preference_2" id="preference_2">
-                                    Pepperoni
+                                <label for="shipping_2">
+                                <input type="radio" name="shipping_2" id="shipping_2">
+                                    Arrive at Home
                                 </label>
                             </li>
-                            <li>
-                                <label for="preference_3">
-                                    <input type="checkbox" name="preference_3" id="preference_3">
-                                    Chicken
-                                </label>
-                            </li>
-                            <li>
-                                <label for="preference_4">
-                                    <input type="checkbox" name="preference_4" id="preference_4">
-                                    Sausage
-                                </label>
                         </ul>
                     </p>
             </fieldset>
-
             <fieldset>
-                <legend><strong>Special Instructions</strong></legend>
-                <p>
-                    <ul>
-                        <li>
-                            <label for="SpecialInstru">Special Instructions</label><br>
-                            <textarea name="user.instru" id="SpecialInstru" cols="30" rows="10">Type Here</textarea>
-                        </li>
-                    </ul>
-                </p>
-                <p>
-                    <input type="image" src="submitbutton - Copy.png" alt="Submit">
-                </p>
+                <legend><strong>Mailing Address (Leave empty if in-store pickup)</strong></legend>
+                    <p>
+                        <ul>
+                            <li>
+                                <label for="mailing"></label><br>
+                                <textarea name="user.mailing" id="mailing" cols="30" rows="10">Type Here</textarea>
+                            </li>
+                        </ul>
+                    </p>
             </fieldset>
         </form>
     </body>
