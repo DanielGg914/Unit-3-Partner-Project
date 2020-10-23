@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Daniel Gutierrez">
+        <meta name="description" content="The Description of the Website">
+        <meta property="og:image" content="OenGraphDataImage.png">
+        <meta property="og:description" content="pretend this is a description">
+        <meta property="og:title" content="pretend this is a title">    
+
+        <title>Order Checkout</title>
+        <link rel="shortcut icon" href="Favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="signin.css">
+    </head>
+    <body>
+        <nav>
+            <div class="relative">
+                <li><img src="OfficialLogo.png" height="100" width="100"></li>
+            </div>
+            
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="services.html">Products</a></li>
+                <li><a href="orders.html">Order</a></li>
+                <li><a href="sign-in.html">Sign in </a></li>
+            </ul>
+
+            <from>
+                <input type="search" name="query" placeholder="Search site">
+                <input type="submit" value="search">
+            </from>
+        </nav>
+
+
+        <form action="data.json" method="POST">
+                <fieldset>
+                    <ul>
+                        <li>
+                            <label for="name">Username:</label>
+                            <input type="text" name="user.name" id="name">
+                        </li>
+                        <li>
+                            <label for="mail">E-mail:</label>
+                            <input type="email" id="mail" name="user.mail">
+                        </li>
+                        <li>
+                            <label for="mail">Password:</label>
+                            <input type="password" id="password" name="user.password">
+                        </li>
+                        <li>
+                            <button type="submit">Sign In</button>
+                        </li>
+                    </ul>
+                </fieldset>
+            </form>
+    </body>
+</html>

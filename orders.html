@@ -23,6 +23,7 @@
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="services.html">Products</a></li>
                 <li><a href="orders.html">Order</a></li>
+                <li><a href="sign-in.html">Sign in </a></li>
             </ul>
 
             <from>
@@ -34,46 +35,30 @@
 
         <form action="data.json" method="POST">
             <fieldset>
-                <legend><strong>User Information</strong></legend>
-                    <p>
-                        <ul>
-                            <li>
-                                <label for="username:">User Name</label>
-                                <input type="text" id="username" name="user.name">
-                            </li>
-                            <li>
-                                <label for="password:">Password</label>
-                                <input type="password" id="password" name="user.password">
-                            </li>
-                        </ul>
-                    </p>
-            </fieldset>
-
-            <fieldset>
                 <legend><strong>Which product are you looking for?</strong></legend>
                     <p>
                         <ul>
                             <li>
                                 <label for="product">
-                                    <input type="radio" id="product" name="product">
+                                    <input type="checkbox" id="product" name="product">
                                     IPhone 12
                                 </label>
                             </li>
                             <li>
                                 <label for="product">
-                                    <input type="radio" id="product" name="user.product">
+                                    <input type="checkbox" id="product" name="user.product">
                                     IPhone SE
                                 </label>
                             </li>
                             <li>
                                 <label for="product">
-                                    <input type="radio" id="product" name="user.product">
+                                    <input type="checkbox" id="product" name="user.product">
                                     Samsung Galaxy s20
                                 </label>
                             </li>
                             <li>
                                 <label for="product">
-                                    <input type="radio" id="product" name="user.product">
+                                    <input type="checkbox" id="product" name="user.product">
                                     Playstation 5
                                 </label>
                             </li>
@@ -161,6 +146,8 @@
                         </ul>
                     </p>
             </fieldset>
+
+            <input type="submit" value="Submit">
         </form>
     </body>
 </html>

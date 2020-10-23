@@ -160,14 +160,44 @@ div{
     position: relative;
     left: 30px;
     bottom: 35px;
-}
+  }
 
-@keyframes nav {
+  @keyframes nav {
     from {background-color: rgb(40, 109, 155);}
     to {background-color: rgb(219, 230, 230);}
+  }
+
+  form{
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 2px solid #ffffff;
+    border-radius: 1em;
+    background-color: rgba(245, 245, 245, 0.822);
+    box-shadow: 0 8px 30px 1px black;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+label{
+    /* Uniform size and allignment */
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+
+li input, textarea{
+    font: 1em sans-serif;
+    width: 280px;
+    box-sizing: border-box;
+    border: 1px solid #292929;
+    border-radius: .1em;
 }
 
 a:hover{
     color: whitesmoke;
 }
-

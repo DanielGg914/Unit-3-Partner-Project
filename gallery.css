@@ -274,3 +274,7 @@ img{
     from {background-color: rgb(40, 109, 155);}
     to {background-color: rgb(219, 230, 230);}
 }
+
+a:hover{
+    color: whitesmoke;
+}

@@ -154,9 +154,13 @@ div{
     position: relative;
     left: 30px;
     bottom: 35px;
-  }
+}
 
-  @keyframes nav {
+@keyframes nav {
     from {background-color: rgb(40, 109, 155);}
     to {background-color: rgb(219, 230, 230);}
-  }
+}
+
+a:hover{
+    color: whitesmoke;
+}
