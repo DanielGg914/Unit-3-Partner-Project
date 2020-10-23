@@ -148,7 +148,7 @@ img{
         grid-template-columns: repeat(5, 20%);
         gap: 5px;
         justify-items: stretch;
-        width: calc(100% - 20px);
+        width: calc(100% - 50px);
     }
 
     .video{
