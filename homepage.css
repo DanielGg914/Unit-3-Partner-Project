@@ -144,8 +144,7 @@ div{
     bottom: 35px;
   }
 
-  @keyframes nav {
+@keyframes nav {
     from {background-color: rgb(40, 109, 155);}
     to {background-color: rgb(219, 230, 230);}
-  }
-  
+}
