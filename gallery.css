@@ -142,8 +142,8 @@ footer{
 }
 
 img{
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
 }
 
 @media(min-width: 401px) {
@@ -268,9 +268,9 @@ div{
     position: relative;
     left: 30px;
     bottom: 35px;
-  }
+}
 
-  @keyframes nav {
+@keyframes nav {
     from {background-color: rgb(40, 109, 155);}
     to {background-color: rgb(219, 230, 230);}
-  }
+}
