@@ -143,6 +143,7 @@ fieldset{
     background-color: rgba(86, 88, 97, 0.8);
     box-shadow: 0 8px 30px -20px black;
     font-size: large;
+    color: rgb(245, 245, 245);
 }
 
 ul{
