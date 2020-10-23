@@ -58,6 +58,12 @@ p, li{
 
 /* Header layout */
 
+div{
+    position: relative;
+    left: 30px;
+    bottom: 35px;
+  }
+
 nav, article, aside, footer{
     background-color: whitesmoke;
     padding: 1%;
@@ -263,12 +269,6 @@ img{
         grid-row: 4 / 5;
     }
 }
-
-div{
-    position: relative;
-    left: 30px;
-    bottom: 35px;
-  }
 
   @keyframes nav {
     from {background-color: rgb(40, 109, 155);}
