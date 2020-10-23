@@ -58,6 +58,12 @@ p, li{
 
 /* Header layout */
 
+div{
+    position: relative;
+    left: 30px;
+    bottom: 35px;
+  }
+
 nav, article, aside, footer{
     background-color: whitesmoke;
     padding: 1%;
@@ -126,7 +132,7 @@ input[type="submit"]{
 main{
     display: flex;
     padding-top: 5%;
-    padding-left: 19rem;
+    padding-left: 14%;
 }
 
 article{
@@ -264,13 +270,7 @@ img{
     }
 }
 
-div{
-    position: relative;
-    left: 30px;
-    bottom: 35px;
-}
-
-@keyframes nav {
+  @keyframes nav {
     from {background-color: rgb(40, 109, 155);}
     to {background-color: rgb(219, 230, 230);}
 }
