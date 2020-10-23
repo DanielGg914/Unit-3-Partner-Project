@@ -70,6 +70,8 @@ nav{
     margin-bottom: 10px;
     text-shadow: 2px 10px 10px black;
     box-shadow: 0 8px 30px -10px black;
+    animation-name: nav;
+    animation-duration: 4s;
 }
 
 nav ul{
@@ -123,6 +125,8 @@ input[type="submit"]{
 
 main{
     display: flex;
+    padding-top: 5%;
+    padding-left: 19rem;
 }
 
 article{
@@ -146,7 +150,8 @@ img{
     main div{
         display: grid;
         grid-template-columns: repeat(5, 20%);
-        gap: 5px;
+        gap: 10px;
+        column-gap: 150px;
         justify-items: stretch;
         width: calc(100% - 50px);
     }
@@ -204,7 +209,8 @@ img{
     main div{
         display: grid;
         grid-template-columns: repeat(5, 20%);
-        gap: 5px;
+        gap: 10px;
+        column-gap: 150px;
         justify-items: stretch;
         width: calc(100% - 20px);
     }
@@ -262,4 +268,9 @@ div{
     position: relative;
     left: 30px;
     bottom: 35px;
+  }
+
+  @keyframes nav {
+    from {background-color: rgb(40, 109, 155);}
+    to {background-color: rgb(219, 230, 230);}
   }
