@@ -128,6 +128,7 @@ img{
         grid-template-columns: repeat(5, 20%);
         gap: 10px;
         column-gap: 150px;
+        row-gap: 150px;
         justify-items: stretch;
         width: calc(100% - 50px);
     }
@@ -247,4 +248,9 @@ img{
 
 a:hover{
     color: whitesmoke;
+}
+
+img:hover{
+    height: 300px;
+    width: 300px;
 }
