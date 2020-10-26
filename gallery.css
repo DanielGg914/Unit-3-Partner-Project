@@ -102,14 +102,7 @@ input[type="submit"]{
 main{
     display: flex;
     padding-top: 5%;
-    padding-left: 14%;
-}
-
-article{
-    width: 80%;
-    margin: 0 auto;
-    border: black solid 3px;
-    box-shadow: 0 8px 30px -10px black;
+    padding-left: 20%;
 }
 
 footer{
@@ -127,8 +120,8 @@ img{
         display: grid;
         grid-template-columns: repeat(5, 20%);
         gap: 10px;
-        column-gap: 150px;
-        row-gap: 150px;
+        column-gap: 50px;
+        row-gap: 50px;
         justify-items: stretch;
         width: calc(100% - 50px);
     }
@@ -187,7 +180,7 @@ img{
         display: grid;
         grid-template-columns: repeat(5, 20%);
         gap: 10px;
-        column-gap: 150px;
+        column-gap: 50px;
         justify-items: stretch;
         width: calc(100% - 20px);
     }
@@ -248,9 +241,4 @@ img{
 
 a:hover{
     color: whitesmoke;
-}
-
-img:hover{
-    height: 300px;
-    width: 300px;
 }
